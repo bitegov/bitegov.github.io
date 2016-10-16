@@ -11,12 +11,16 @@
 
     <title>국민BIT 전자정부 연구실 홈페이지입니다.</title>
 
+    <!--add header-->
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+
     <!-- Bootstrap Core CSS -->
-    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../../css/business-frontpage.css" rel="stylesheet">
-    <link href="../../css/style.css" rel="stylesheet"/>
+    <link href="css/business-frontpage.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,61 +32,14 @@
 </head>
 
 <body>
-<!-- Navigation -->
-<header>
-    <div class="container">
-        <div class="pager">
-            <h1>
-                <bold>Electronic -Government Laboratory</bold>
-            </h1>
-            <p>국민대학교 BIT 전문대학원 전자정부 전공</p>
-        </div>
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="..\Home.html">HOME</a>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="Lab.html">ABOUT US
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="Major.html">Our Major</a></li>
-                            <li><a href="Lab.html">What is E-gov Lab?</a></li>
-                            <li><a href="Publication.html">Publication</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="Student.html">MEMBER
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="Prof.html">Professors</a></li>
-                            <li><a href="Student.html">Students</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="..\News\News.html">NEWS
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="..\News\News.html">BIT News</a></li>
-                            <li><a href="..\News\Notice.html">Lab's Notice</a></li>
-                            <li><a href="..\News\Seminar.html">Lab's Seminar</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="..\Photo.html">PHOTO</a>
-                    </li>
-                    <li>
-                        <a href="..\Contact.html">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </nav>
-        <!-- /.container -->
-    </div>
-</header>
+
+<!-- header -->
+<div w3-include-html="egovheader.html"></div>
+
+<script>
+    w3IncludeHTML();
+</script>
+<!-- header end -->
 
 <section class="container">
     <div class="page-header text-center">
@@ -103,35 +60,35 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\member1.jpg" alt="Jay"></a>
+                                        <a href="#"><img src="img\member1.jpg" alt="Jay"></a>
                                     </div>
                                     <div class="info">
                                         <h3>안재열 (Ahn, Jae-Yeoul)</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a> jb7959@naver.com
+                                        <a href="mailto:jb7959@naver.com"><i class="glyphicon glyphicon-envelope"></i></a> jb7959@naver.com
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\member2.jpg" alt="Aime"></a>
+                                        <a href="#"><img src="img\member2.jpg" alt="Aime"></a>
                                     </div>
                                     <div class="info">
                                         <h3>Pankamol Srikaew</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a> aim.ske09@gmail.com
+                                        <a href="mailto:aim.ske09@gmail.com"><i class="glyphicon glyphicon-envelope"></i></a> aim.ske09@gmail.com
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\member3.jpg" alt="Adam"></a>
+                                        <a href="mailto:khadijahmuhd@gmail.com"><img src="img\member3.jpg" alt="Adam"></a>
                                     </div>
                                     <div class="info">
                                         <h3>Khadijah</h3>
@@ -148,42 +105,42 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\member12.jpg" alt="Boo"></a>
+                                        <a href="#"><img src="img\member12.jpg" alt="Boo"></a>
                                     </div>
                                     <div class="info">
                                         <h3>부현경 (Boo, Hyun-Kyung)</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a> boo93kr@naver.com
+                                        <a href="mailto:boo93kr@naver.com"><i class="glyphicon glyphicon-envelope"></i></a> boo93kr@naver.com
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\linkedin.png" alt="Park"></a>
+                                        <a href="#"><img src="img\linkedin.png" alt="Park"></a>
                                     </div>
                                     <div class="info">
                                         <h3>박연아 (Park, Yeon-A)</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a> yeona34@naver.com
+                                        <a href="mailto:yeona34@naver.com"><i class="glyphicon glyphicon-envelope"></i></a> yeona34@naver.com
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\member11.jpg" alt="Tachin"></a>
+                                        <a href="#"><img src="img\member11.jpg" alt="Tachin"></a>
                                     </div>
                                     <div class="info">
                                         <h3>Srisombat Tachinta</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a> sr.tachin@gmail.com
+                                        <a href="mailto:sr.tachin@gmail.com"><i class="glyphicon glyphicon-envelope"></i></a> sr.tachin@gmail.com
                                     </div>
                                 </div>
                             </div>
@@ -192,28 +149,28 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\linkedin.png" alt="Yun"></a>
+                                        <a href="#"><img src="img\linkedin.png" alt="Yun"></a>
                                     </div>
                                     <div class="info">
-                                        <h3>윤도열 ()</h3>
+                                        <h3>윤보열 (Yun, Bo-Yeoul)</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>ssapsking@naver.com
+                                        <a href="mailto:ssapsking@naver.com"><i class="glyphicon glyphicon-envelope"></i></a>ssapsking@naver.com
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\linkedin.png" alt="Yee"></a>
+                                        <a href="#"><img src="img\linkedin.png" alt="Yee"></a>
                                     </div>
                                     <div class="info">
-                                        <h3>이...?</h3>
+                                        <h3>이동준 (Lee, Dong-Jun )</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>e-gov@naver.com
                                     </div>
                                 </div>
                             </div>
@@ -228,14 +185,14 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\member5.jpg" alt="Poly"></a>
+                                        <a href="#"><img src="img\member5.jpg" alt="Poly"></a>
                                     </div>
                                     <div class="info">
                                         <h3>Polycarp Ogye</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+                                        <a href="mailto:Polycarpogye07@yahoo.com"><i class="glyphicon glyphicon-envelope"></i></a>
                                         Polycarpogye07@yahoo.com
                                     </div>
                                 </div>
@@ -243,28 +200,28 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\member6.jpg" alt="Dan"></a>
+                                        <a href="#"><img src="img\member6.jpg" alt="Dan"></a>
                                     </div>
                                     <div class="info">
                                         <h3>Dan Zitta</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a> danpariz@yahoo.com
+                                        <a href="mailto:danpariz@yahoo.com"><i class="glyphicon glyphicon-envelope"></i></a> danpariz@yahoo.com
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\member7.jpg" alt="Mariam"></a>
+                                        <a href="#"><img src="img\member7.jpg" alt="Mariam"></a>
                                     </div>
                                     <div class="info">
                                         <h3>Utuk Mariam</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a> utuk.mariam@commtech.gov.ng
+                                        <a href="mailto:utuk.mariam@commtech.gov.ng"><i class="glyphicon glyphicon-envelope"></i></a> utuk.mariam@commtech.gov.ng
                                     </div>
                                 </div>
                             </div>
@@ -273,14 +230,14 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\member8.jpg" alt="Jay"></a>
+                                        <a href="#"><img src="img\member8.jpg" alt="Jay"></a>
                                     </div>
                                     <div class="info">
                                         <h3>Hussein Abubakar</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+                                        <a href="mailto:hussein.abubakar@commtech.gov.ng"><i class="glyphicon glyphicon-envelope"></i></a>
                                         hussein.abubakar@commtech.gov.ng
                                     </div>
                                 </div>
@@ -288,28 +245,28 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\member9.jpg" alt="Jay"></a>
+                                        <a href="#"><img src="img\member9.jpg" alt="Jay"></a>
                                     </div>
                                     <div class="info">
                                         <h3>Musa Usman</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a> usman.mamman@zoho.com
+                                        <a href="mailto:usman.mamman@zoho.com"><i class="glyphicon glyphicon-envelope"></i></a> usman.mamman@zoho.com
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-member middle">
                                     <div class="img">
-                                        <a href="#"><img src="..\..\img\member10.jpg" alt="Luk"></a>
+                                        <a href="#"><img src="img\member10.jpg" alt="Luk"></a>
                                     </div>
                                     <div class="info">
                                         <h3>Lamid Lukman Idowu</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a> lukmanlamid@yahoo.com
+                                        <a href="mailto:lukmanlamid@yahoo.com"><i class="glyphicon glyphicon-envelope"></i></a> lukmanlamid@yahoo.com
                                     </div>
                                 </div>
                             </div>
@@ -349,10 +306,10 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="../../js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../../js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     </section>
 </body>

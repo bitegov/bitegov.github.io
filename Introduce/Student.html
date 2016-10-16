@@ -11,12 +11,16 @@
 
     <title>국민BIT 전자정부 연구실 홈페이지입니다.</title>
 
+    <!--add header-->
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+
     <!-- Bootstrap Core CSS -->
-    <link href="./../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="./../css/business-frontpage.css" rel="stylesheet">
-    <link href="./../css/style.css" rel="stylesheet"/>
+    <link href="../css/business-frontpage.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,61 +32,14 @@
 </head>
 
 <body>
-<!-- Navigation -->
-<header>
-    <div class="container">
-        <div class="pager">
-            <h1>
-                <bold>E-Government Laboratory</bold>
-            </h1>
-            <p>국민대학교 BIT 전문대학원 전자정부 전공</p>
-        </div>
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="..\index.html">HOME</a>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="Lab.html">ABOUT US
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="Major.html">Our Major</a></li>
-                            <li><a href="Lab.html">What is E-gov Lab?</a></li>
-                            <li><a href="Publication.html">Publication</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="Student.html">MEMBER
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="Prof.html">Professors</a></li>
-                            <li><a href="Student.html">Students</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="..\News\News.html">NEWS
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="..\News\News.html">BIT News</a></li>
-                            <li><a href="..\News\Notice.html">Lab's Notice</a></li>
-                            <li><a href="..\News\Seminar.html">Lab's Seminar</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="..\Photo.html">PHOTO</a>
-                    </li>
-                    <li>
-                        <a href="..\Contact.html">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </nav>
-        <!-- /.container -->
-    </div>
-</header>
+
+<!-- header -->
+<div w3-include-html="../egovheader.html"></div>
+
+<script>
+    w3IncludeHTML();
+</script>
+<!-- header end -->
 
 <section class="container">
     <div class="page-header text-center">
@@ -195,7 +152,7 @@
                                         <a href="#"><img src=".\..\img\linkedin.png" alt="Yun"></a>
                                     </div>
                                     <div class="info">
-                                        <h3>윤도열 ()</h3>
+                                        <h3>윤보열 (Yun, Bo-Yeoul)</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
@@ -209,11 +166,11 @@
                                         <a href="#"><img src=".\..\img\linkedin.png" alt="Yee"></a>
                                     </div>
                                     <div class="info">
-                                        <h3>이...?</h3>
+                                        <h3>이동준 (Lee, Dong-Jun )</h3>
                                         <p>연구분야 <br> 전자정부, 서비스 관리, 프레임워크, 소프트웨어 아키텍처, 서비스 기반 아키텍처</p>
                                     </div>
                                     <div class="social-icons">
-                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+                                        <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>e-gov@naver.com
                                     </div>
                                 </div>
                             </div>
@@ -349,10 +306,10 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="../../js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
     </section>
 </body>

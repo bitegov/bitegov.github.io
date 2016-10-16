@@ -11,6 +11,9 @@
 
     <title>국민BIT 전자정부 연구실 홈페이지입니다.</title>
 
+    <!--add header-->
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
     <!-- Bootstrap Core CSS -->
     <link href="./css/bootstrap.css" rel="stylesheet">
 
@@ -34,60 +37,13 @@
 
 <!-- Navigation -->
 <header class="business-header">
-    <div class="container">
-        <div class="pager">
-            <h1>
-                <!--<bold>Electronic -Government Laboratory</bold>-->
-                <bold>E-Government Laboratory</bold>
-            </h1>
-            <p>국민대학교 BIT 전문대학원 전자정부 전공</p>
-        </div>
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">HOME</a>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="Introduce\Lab.html">ABOUT US
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="Introduce\Major.html">Our Major</a></li>
-                            <li><a href="Introduce\Lab.html">What is E-gov Lab?</a></li>
-                            <li><a href="Introduce\Publication.html">Publication</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="Introduce\Lab.html">MEMBER
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="Introduce\Prof.html">Professors</a></li>
-                            <li><a href="Introduce\Student.html">Students</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="News\News.html">NEWS
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="News\News.html">BIT News</a></li>
-                            <li><a href="News\Notice.html">Lab's Notice</a></li>
-                            <li><a href="News\Seminar.html">Lab's Seminar</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="Photo.html">PHOTO</a>
-                    </li>
-                    <li>
-                        <a href="Contact.html">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Top Navigation -->
-        </nav>
-        <!-- /.container -->
-    </div>
 
+    <div class="container">
+        <div w3-include-html="egovheader.html"></div>
+        <script>
+            w3IncludeHTML();
+        </script>
+    </div>
     <!-- Image Background Page Header -->
     <!-- Note: The background image is set within the business-casual.css file. -->
 
@@ -110,6 +66,7 @@
             <div class="col-sm-8">
                 <h2>What We Do</h2>
                 <p>2015년 2월에 신설된 연구실으로 다양한 국적의 학생들이 공부하고 있습니다. (한국인 3명, 나이지리안 7명, 태국인 2명 등)
+
                     또한, 우리 연구실은 전자정부 중심의 소프트웨어에 관해 연구하고 있습니다. (개발, 컨설팅 과정)</p>
                 <a style="float:right" ; class="btn btn-default btn-lg" href="Introduce\Lab.html">read more</a>
             </div>
